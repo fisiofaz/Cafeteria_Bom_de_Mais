@@ -146,7 +146,7 @@
         <div class="tab-content" id="coffeesTabContent">
           <div class="tab-pane fade show active" id="expresso-tab-pane" role="tabpanel" aria-labelledby="expresso-tab" tabindex="0">
             <!--Cofeer Card-->
-            <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
               <div class="col">
                 <div class="card card-menu">
                   <img src="https://media.istockphoto.com/id/1327256958/pt/foto/isolated-cup-of-coffee.webp?a=1&b=1&s=612x612&w=0&k=20&c=RSfI4KH1TxyeUJnAFgBZYi1-7j3dqm7oCzVT6MJgw4k=" class="card-img-top" alt="café capuccinos-">
@@ -204,7 +204,7 @@
             </div>
           </div>
           <div class="tab-pane fade" id="capuccinos-tab-pane" role="tabpanel" aria-labelledby="capuccinos-tab" tabindex="0">
-            <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
               <div class="col">
                 <div class="card card-menu">
                   <img src="https://plus.unsplash.com/premium_photo-1669905375117-e3347bb2b4d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eCVDMyVBRGNhcmElMjBkZSUyMGNhZiVDMyVBOSUyMGNhcHV0aW5vfGVufDB8MHwwfHx8MA%3D%3D" class="card-img-top" alt="café capuccinos">
@@ -262,7 +262,7 @@
             </div>
           </div>
           <div class="tab-pane fade" id="gelados-tab-pane" role="tabpanel" aria-labelledby="gelados-tab" tabindex="0">
-            <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
               <div class="col">
                 <div class="card card-menu">
                   <img src="https://plus.unsplash.com/premium_photo-1695053979729-6325adbcc491?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eCVDMyVBRGNhcmElMjBkZSUyMGNhZiVDMyVBOSUyMGdlbGFkb3N8ZW58MHwwfDB8fHww" class="card-img-top" alt="café gelados">
@@ -316,6 +316,44 @@
                     <p class="card-text fs-4">R$ 15,00</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--Modal de Localização-->
+      <section id="local" class="container mt-4 text-center">        
+        <!-- Button modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localModal">
+            Quero conhecer o Coffee Shop
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="localModal" tabindex="-1" aria-labelledby="localModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title text-center fs-2" id="localModalLabel">Estamos te esperando!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Te esperamos na Rua Frederico Ozanan, nº 538 - Urlandia <br>
+                  Santa Maria / RS
+                </p>
+                <div class="mapouter">
+                  <div class="gmap_canvas">
+                    <iframe 
+                      src="https://maps.google.com/maps?q=frederico%20ozanan%20538%20-%20santa%20maria%20-%20rs%20&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
+                      frameborder="0" 
+                      scrolling="no" 
+                      style="width: 100%; height: 400px;">
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary fs-2 " data-bs-dismiss="modal">Fechar</button>
               </div>
             </div>
           </div>
