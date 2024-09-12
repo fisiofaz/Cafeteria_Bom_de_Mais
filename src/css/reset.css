@@ -10,4 +10,10 @@
 
   :root {
     font-size: 62.5%;
+    --bs-link-color: #198754;
+    --ls-link-hover-color: #146c43;
   }  
+
+  section {
+    scroll-margin-top: 6rem;
+  }

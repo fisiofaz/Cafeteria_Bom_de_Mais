@@ -10,9 +10,12 @@
     --bs-btn-active-bg: #165839;
 }
 
-.modal-footer .btn {
+.button {
     background-color: #146c43;
     border-color: #146c43;
     color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem;
 
 }
